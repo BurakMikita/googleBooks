@@ -1,0 +1,28 @@
+
+
+.input{
+    width: 600px;
+    height: 35px;
+    margin-bottom: 40px;
+}
+.inputTwo {
+
+}
+
+@media  (max-width: 700px){
+    .input {
+        width: 400px;
+    }
+}
+
+@media  (max-width: 500px){
+    .input {
+        width: 250px;
+    }
+    .inputTwo {
+        width: 80px;
+    }
+    .b {
+        display: none;
+    }
+}
